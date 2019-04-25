@@ -10,13 +10,9 @@ package remidiuts;
  *
  * @author cahaya
  */
-public class RemidiUts {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+public class Intel extends CPU {
+    public Intel(int kecepatan){
+        super.CPU("Intel", 2);
     }
     
 }
